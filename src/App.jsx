@@ -9,6 +9,7 @@ import ParImapar from "./Componente/Condicional/ParImpar"
 import UsuarioInfo from "./Componente/Condicional/UsuarioInfo"
 import IndiretaPai from "./Componente/Comunicacao/IndiretaPai";
 import Input from "./Componente/Controlado/Input";
+import Mega from "./Componente/MegaSena/Mega";
 function App() {
   return (
     <div className="App">
@@ -46,6 +47,10 @@ function App() {
 
       <Card titulo="Componente Controlado" color= "#00FFFF">
         <Input></Input>
+      </Card>
+
+      <Card titulo="Mega Sena" color= "#DAA520">
+        <Mega qtde={6}></Mega>
       </Card>
       </div>
 
